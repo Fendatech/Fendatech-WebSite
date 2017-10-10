@@ -19,7 +19,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 20rem; /* Distancia do Titulo */
+  bottom: 0rem; /* Distancia do Titulo */
 }
 
 /* Declare heights because of positioning of img element */
@@ -88,4 +88,10 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
